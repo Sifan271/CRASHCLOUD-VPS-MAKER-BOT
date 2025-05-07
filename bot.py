@@ -278,7 +278,7 @@ async def capture_ssh_session_line(process):
             return output.split("ssh session:")[1].strip()
     return None
 
-whitelist_ids = {"1128161197766746213"}  # Replace with actual user IDs
+whitelist_ids = {"1139926248181747782"}  # Replace with actual user IDs
 
 @bot.tree.command(name="remove-everything", description="Removes all data and containers")
 async def remove_everything(interaction: discord.Interaction):
